@@ -2,8 +2,16 @@
   "item.modteste.rosaria": "Rosaria",
   "item.modteste.raw_rosaria": "Raw Rosaria",
 
+  "item.modteste.onyx": "Onyx",
+
+  "item.modteste.gnomoitem": "Gnome",
+
   "block.modteste.rosaria_block": "Block of Rosaria",
   "block.modteste.rosaria_ore": "Rosaria Ore",
   "block.modteste.deepslate_rosaria_ore": "Deepslate Rosaria Ore",
+
+  "block.modteste.jumpyblock": "Block of Gnomes",
+
+
   "itemGroup.modds_tab": "Modds"
 }

@@ -14,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.msiepie.modteste.ModTeste;
+import net.msiepie.modteste.block.custom.JumpyBlock;
 import net.msiepie.modteste.item.ModCreativeModeTab;
 import net.msiepie.modteste.item.ModItems;
 
@@ -34,6 +35,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DEEPSLATE_ROSARIA_ORE = registerBlock("deepslate_rosaria_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MODDS_TAB);
+
+    public static final RegistryObject<Block> JUMPYBLOCK = registerBlock("jumpyblock",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MODDS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

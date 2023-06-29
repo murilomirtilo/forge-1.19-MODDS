@@ -2,5 +2,8 @@
   "item.modteste.rosaria": "Rosaria",
   "item.modteste.raw_rosaria": "Raw Rosaria",
 
+  "block.modteste.rosaria_block": "Block of Rosaria",
+  "block.modteste.rosaria_ore": "Rosaria Ore",
+  "block.modteste.deepslate_rosaria_ore": "Deepslate Rosaria Ore",
   "itemGroup.modds_tab": "Modds"
 }

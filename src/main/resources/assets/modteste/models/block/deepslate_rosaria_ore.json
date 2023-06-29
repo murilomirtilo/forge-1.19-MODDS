@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "modteste:block/deepslate_rosaria_ore"
+  }
+}

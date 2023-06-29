@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modteste:rosaria_block"
+    }
+  ],
+  "result": {
+    "item": "modteste:rosaria",
+    "count": 9
+  }
+}

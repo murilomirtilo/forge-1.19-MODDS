@@ -1,8 +1,10 @@
 package net.msiepie.modteste.block.custom;
 
+import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.client.resources.sounds.SoundInstance;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -14,6 +16,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraftforge.common.crafting.conditions.ICondition;
+import net.minecraftforge.fml.common.Mod;
+import net.msiepie.modteste.sound.ModSounds;
+
+import static net.minecraftforge.common.data.SoundDefinition.Sound.sound;
 
 public class JumpyBlock extends Block {
     public JumpyBlock(Properties properties) {
@@ -23,6 +30,10 @@ public class JumpyBlock extends Block {
     @Override
     public InteractionResult use(BlockState blockState, Level level, BlockPos blockPos, Player player,
                                  InteractionHand interactionHand, BlockHitResult blockHitResult) {
+
+
+
+
         return super.use(blockState, level, blockPos, player, interactionHand, blockHitResult);
     }
 
@@ -31,7 +42,7 @@ public class JumpyBlock extends Block {
         if (entity instanceof LivingEntity livingEntity) {
             // Aumenta a duração do efeito para 400 ticks (20 segundos)
             // e aumenta a amplitude do salto para 2.5
-            livingEntity.addEffect(new MobEffectInstance(MobEffects.JUMP, 400, 4, false, false));
+            livingEntity.addEffect(new MobEffectInstance(MobEffects.JUMP, 20, 2, false, false));
         }
         super.stepOn(level, blockPos, blockState, entity);
     }

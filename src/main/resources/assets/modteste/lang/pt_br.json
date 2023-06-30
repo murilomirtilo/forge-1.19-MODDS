@@ -1,0 +1,19 @@
+{
+  "item.modteste.rosaria": "Rosaria",
+  "item.modteste.raw_rosaria": "Minério de Rosaria",
+
+  "item.modteste.onyx": "Onyx",
+
+  "item.modteste.gnomoitem": "Gnomo",
+  "item.modteste.gnomo_meat": "Carne Suspeita",
+
+  "block.modteste.rosaria_block": "Bloco de Rosaria",
+  "block.modteste.rosaria_ore": "Minério de Rosaria",
+  "block.modteste.cogulampblock": "Bloco de Cogulampa",
+  "block.modteste.deepslate_rosaria_ore": "Minério de Rosaria de Ardósia",
+
+  "block.modteste.jumpyblock": "Bloco de Gnomos",
+
+
+  "itemGroup.modds_tab": "Modds"
+}

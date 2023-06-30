@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "lit=true": {"model": "modteste:block/cogulampblock_on"},
+    "lit=false": {"model": "modteste:block/cogulampblock_off"}
+
+  }
+}
